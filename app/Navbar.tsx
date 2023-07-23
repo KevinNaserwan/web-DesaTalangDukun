@@ -6,7 +6,12 @@ type Props = {};
 const Navbar = (props: Props) => {
   return (
     <div className="flex items-center justify-between w-full h-full my-14">
-      <div className=" flex">
+      <div className=" flex gap-5">
+      <img
+          src="/images/logo.png"
+          alt="logo"
+          className="w-[50px] h-[58px] rounded-xl"
+        />
         <div>
           <h1 className="font-semibold text-lg">Desa Talang Dukun</h1>
           <h1 className=" font-normal text-base">Kabupaten Ogan Ilir</h1>
