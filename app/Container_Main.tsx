@@ -23,11 +23,78 @@ const Container_Main = (props: Props) => {
         <Card />
         <Card />
         <Card />
+        <div className=" flex items-center gap-5 pt-[70px] justify-center">
+          <div>
+            <div className=" w-[350px] h-[6px] bg-main-color"></div>
+            <div className=" w-[350px] h-[6px] bg-main-color mt-1"></div>
+          </div>
+          <h1 className=" text-xl font-medium">Visi & Misi</h1>
+          <div>
+            <div className=" w-[390px] h-[6px] bg-main-color"></div>
+            <div className=" w-[390px] h-[6px] bg-main-color mt-1"></div>
+          </div>
+        </div>
+        <div className=" w-[900px]">
+          <p className=" font-semibold text-xl mt-[66px] ml-[15px]">
+            1. VISI DAN MISI
+          </p>
+          <p className=" ml-[30px]">
+            Visi pembangunan Desa Sekartaji tahun 2021 – 2027, adalah
+            ”Mewujudkan Desa Sekartaji yang Unggul, sejahtera, Santih, dan
+            berbudaya”.
+          </p>
+          <p className=" font-semibold text-xl mt-[30px] ml-[15px]">2. Misi</p>
+          <p className=" ml-[30px]">
+            Misi pembangunan Desa Sekartaji Tahun 2021-2027, adalah :
+          </p>
+          <p className=" ml-[45px] text-lg font-semibold mt-[15px]">
+            a. Meningkatkan kualitas sumber daya manusia melalui program
+            pendidikan dan program kesehatan, serta pengamalan ajaran agama.
+          </p>
+          <p className=" ml-[45px] text-lg font-semibold mt-[15px]">
+            b. Membangunan Desa Sekartaji dengan prinsip adil dan merata dengan
+            berlandaskan konsep “Trihita Karana”
+          </p>
+          <p className=" ml-[45px] text-lg font-semibold mt-[15px]">
+            c. Untuk mensejahterakan tarap hidup masyarakat baik ekonomi sosial,
+            dan budaya.
+          </p>
+          <p className=" ml-[45px] text-lg font-semibold mt-[15px]">
+            d. Menggali, melestarikan dan mengembangkan nilai-nilai budaya desa.
+          </p>
+          <p className=" ml-[45px] text-lg font-semibold mt-[15px]">
+            e. Meningkatkan ketahanan ekonomi dengan menggalakkan usaha ekonomi
+            kerakyatan, melalui program strategis di bidang produksi pertanian,
+            pemasaran, koperasi, usaha kecil dan menengah, serta pariwisata.
+          </p>
+          <p className=" font-semibold text-xl mt-[30px] ml-[15px]">
+            VISI MISI DESA SEKARTAJI
+          </p>
+          <p className=" font-semibold text-xl mt-[30px] ml-[15px]">VISI</p>
+          <p className=" ml-[15px]">
+            Visi Desa Sekartaji tahun 2015-2021 : "Terwujudnya Desa Sekartaji
+            yang Aman, Damai dan Sejahtera".
+          </p>
+          <p className=" font-semibold text-xl mt-[30px] ml-[15px]">MISI</p>
+          <p className=" ml-[15px]">Misi Pembangunan Desa Sekartaji:</p>
+          <p className=" ml-[15px] text-lg mt-[7px]">
+            1. Peningkatan kualitas sumber daya manusia
+          </p>
+          <p className=" ml-[15px] text-lg mt-[7px]">
+            2. Peningkatan pembangunan disegala bidang
+          </p>
+          <p className=" ml-[15px] text-lg mt-[7px]">
+            3. Peningkatan Ekonomi Masyarakat
+          </p>
+          <p className=" ml-[15px] text-lg mt-[7px]">
+            4. Peningkatan Pasrtisipasi Masyarakat
+          </p>
+        </div>
       </div>
       <div className=" col-span-4">
         <div>
           <div className="flex gap-[10px] items-center">
-          <img
+            <img
               src="/images/person.png"
               alt="person"
               className="w-[30px] h-[30px]"
@@ -39,7 +106,7 @@ const Container_Main = (props: Props) => {
             <div className=" w-6/12 h-[5px] bg-second-color"></div>
           </div>
           <div className="image mt-[40px]">
-          <img
+            <img
               src="/images/kepaladesa.png"
               alt="kepaladesa"
               className="w-[300px] h-[323px] rounded-xl"
@@ -62,7 +129,7 @@ const Container_Main = (props: Props) => {
         </div>
         <div className=" mt-[70px]">
           <div className="flex gap-[7px] items-center">
-          <img
+            <img
               src="/images/logo-map.png"
               alt="logo-map"
               className="w-[30px] h-[30px]"
