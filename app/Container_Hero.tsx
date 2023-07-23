@@ -5,13 +5,18 @@ type Props = {};
 
 const Container_Hero = (props: Props) => {
   return (
-    <div className=" flex flex-wrap mx-auto w-10/12 justify-between pt-8 items-center">
-      <div className=" col-span-6">
+    <div className=" flex flex-wrap mx-auto w-10/12 justify-around pt-8 items-center">
+      <div className=" col-span-6 flex items-center gap-8">
         <img
           src="/images/Hero.png"
           alt="Hero"
           className="w-full h-auto rounded-xl"
         />
+        <div className="">
+          <div className=" w-[12px] mt-[12px] h-[12px] bg-slate-400 rounded-xl"></div>
+          <div className=" w-[12px] mt-[12px] h-[12px] bg-slate-400 rounded-xl"></div>
+          <div className=" w-[12px] mt-[12px] h-[32px] bg-black rounded-xl"></div>
+        </div>
       </div>
       <div className=" col-span-6">
         <h1 className=" w-[500px] font-semibold text-xl">
