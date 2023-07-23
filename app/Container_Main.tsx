@@ -26,7 +26,12 @@ const Container_Main = (props: Props) => {
       </div>
       <div className=" col-span-4">
         <div>
-          <div className="flex">
+          <div className="flex gap-[10px] items-center">
+          <img
+              src="/images/person.png"
+              alt="person"
+              className="w-[30px] h-[30px]"
+            />
             <h1 className=" text-lg font-semibold">Aparatur Desa</h1>
           </div>
           <div className=" flex mt-[20px]">
@@ -34,7 +39,11 @@ const Container_Main = (props: Props) => {
             <div className=" w-6/12 h-[5px] bg-second-color"></div>
           </div>
           <div className="image mt-[40px]">
-            <div className=" w-[300px] h-[323px] bg-slate-600"></div>
+          <img
+              src="/images/kepaladesa.png"
+              alt="kepaladesa"
+              className="w-[300px] h-[323px] rounded-xl"
+            />
             <h1 className=" text-center font-semibold text-xl mt-[14px]">
               Kepala Desa
             </h1>
@@ -52,7 +61,12 @@ const Container_Main = (props: Props) => {
           </div>
         </div>
         <div className=" mt-[70px]">
-          <div className="flex">
+          <div className="flex gap-[7px] items-center">
+          <img
+              src="/images/logo-map.png"
+              alt="logo-map"
+              className="w-[30px] h-[30px]"
+            />
             <h1 className=" text-lg font-semibold">Peta Wilayah Desa</h1>
           </div>
           <div className=" flex mt-[20px]">
@@ -60,11 +74,18 @@ const Container_Main = (props: Props) => {
             <div className=" w-6/12 h-[5px] bg-second-color"></div>
           </div>
           <div className="image mt-[40px]">
-            <div className=" w-[300px] h-[323px] bg-slate-600"></div>
+            <img
+              src="/images/map.png"
+              alt="map"
+              className="w-[300px] h-[323px] rounded-xl"
+            />
           </div>
-          <a href="">
+          <a href="https://www.google.com/maps/place/Talang+Dukun,+Sungai+Pinang,+Ogan+Ilir+Regency,+South+Sumatra/@-3.384057,104.7882302,15z/data=!3m1!4b1!4m6!3m5!1s0x2e3bec2aac4e8c91:0x57638b2ad3f1984a!8m2!3d-3.3869986!4d104.7958532!16s%2Fg%2F120qkm51?entry=ttu">
             <div className=" w-full h-[52px] bg-main-color mt-[27px] rounded-xl flex justify-center items-center">
-              <a href="" className=" font-medium text-xl text-white">
+              <a
+                href="https://www.google.com/maps/place/Talang+Dukun,+Sungai+Pinang,+Ogan+Ilir+Regency,+South+Sumatra/@-3.384057,104.7882302,15z/data=!3m1!4b1!4m6!3m5!1s0x2e3bec2aac4e8c91:0x57638b2ad3f1984a!8m2!3d-3.3869986!4d104.7958532!16s%2Fg%2F120qkm51?entry=ttu"
+                className=" font-medium text-xl text-white"
+              >
                 Buka Peta
               </a>
             </div>
