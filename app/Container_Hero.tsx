@@ -13,9 +13,9 @@ const Container_Hero = (props: Props) => {
           className="w-full h-auto rounded-xl"
         />
         <div className="">
-          <div className=" w-[12px] mt-[12px] h-[12px] bg-slate-400 rounded-xl"></div>
-          <div className=" w-[12px] mt-[12px] h-[12px] bg-slate-400 rounded-xl"></div>
-          <div className=" w-[12px] mt-[12px] h-[32px] bg-black rounded-xl"></div>
+          <div className=" slide1 w-[8px] mt-[8px] h-[8px] bg-slate-400 rounded-xl"></div>
+          <div className=" slide2 w-[8px] mt-[8px] h-[8px] bg-slate-400 rounded-xl"></div>
+          <div className=" slide3 w-[8px] mt-[8px] h-[24px] bg-black rounded-xl"></div>
         </div>
       </div>
       <div className=" col-span-6">

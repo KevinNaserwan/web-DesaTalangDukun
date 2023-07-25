@@ -119,12 +119,9 @@ const Container_Main = (props: Props) => {
             </h2>
           </div>
           <div className=" flex gap-[29px] justify-center mt-[28px]">
-            <div className=" w-[49px] h-[15px] bg-black rounded-xl"></div>
-            <div className=" w-[15px] h-[15px] bg-slate-400 rounded-xl"></div>
-            <div className=" w-[15px] h-[15px] bg-slate-400 rounded-xl"></div>
-            <div className=" w-[15px] h-[15px] bg-slate-400 rounded-xl"></div>
-            <div className=" w-[15px] h-[15px] bg-slate-400 rounded-xl"></div>
-            <div className=" w-[15px] h-[15px] bg-slate-400 rounded-xl"></div>
+            <div className=" w-[32px] h-[10px] bg-black rounded-xl"></div>
+            <div className=" w-[10px] h-[10px] bg-slate-400 rounded-xl"></div>
+            <div className=" w-[10px] h-[10px] bg-slate-400 rounded-xl"></div>
           </div>
         </div>
         <div className=" mt-[70px]">
@@ -148,13 +145,8 @@ const Container_Main = (props: Props) => {
             />
           </div>
           <a href="https://www.google.com/maps/place/Talang+Dukun,+Sungai+Pinang,+Ogan+Ilir+Regency,+South+Sumatra/@-3.384057,104.7882302,15z/data=!3m1!4b1!4m6!3m5!1s0x2e3bec2aac4e8c91:0x57638b2ad3f1984a!8m2!3d-3.3869986!4d104.7958532!16s%2Fg%2F120qkm51?entry=ttu">
-            <div className=" w-full h-[52px] bg-main-color mt-[27px] rounded-xl flex justify-center items-center">
-              <a
-                href="https://www.google.com/maps/place/Talang+Dukun,+Sungai+Pinang,+Ogan+Ilir+Regency,+South+Sumatra/@-3.384057,104.7882302,15z/data=!3m1!4b1!4m6!3m5!1s0x2e3bec2aac4e8c91:0x57638b2ad3f1984a!8m2!3d-3.3869986!4d104.7958532!16s%2Fg%2F120qkm51?entry=ttu"
-                className=" font-medium text-xl text-white"
-              >
-                Buka Peta
-              </a>
+            <div className=" button-map w-full h-[52px] bg-main-color mt-[27px] rounded-xl flex justify-center items-center">
+              <p className=" font-medium text-xl text-white">Buka Peta</p>
             </div>
           </a>
         </div>

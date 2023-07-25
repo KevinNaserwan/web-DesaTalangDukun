@@ -2,7 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: white;
   color: black;
+}
+
+a:hover {
+  background-color: #e7e7e7;
+  border-radius: 10px;
+}
+
+a:hover .button-map {
+  background-color: #04416c;
 }

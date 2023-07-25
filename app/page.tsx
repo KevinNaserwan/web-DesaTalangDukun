@@ -10,9 +10,9 @@ export default function Home() {
       <div className="w-10/12 mx-auto">
         <Navbar />
       </div>
-      <Container_Hero/>
-      <Container_Main/>
-      <Footer/>
+      <Container_Hero />
+      <Container_Main />
+      <Footer />
     </div>
   );
 }
