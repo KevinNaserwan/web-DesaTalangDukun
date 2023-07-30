@@ -39,21 +39,21 @@ const Container_Main = (props: Props) => {
             1. VISI DAN MISI
           </p>
           <p className=" ml-[30px]">
-            Visi pembangunan Desa Sekartaji tahun 2021 – 2027, adalah
-            ”Mewujudkan Desa Sekartaji yang Unggul, sejahtera, Santih, dan
+            Visi pembangunan Desa Talang Dukun tahun 2021 – 2027, adalah
+            ”Mewujudkan Desa Talang Dukun yang Unggul, sejahtera, Santih, dan
             berbudaya”.
           </p>
           <p className=" font-semibold text-xl mt-[30px] ml-[15px]">2. Misi</p>
           <p className=" ml-[30px]">
-            Misi pembangunan Desa Sekartaji Tahun 2021-2027, adalah :
+            Misi pembangunan Desa Talang Dukun Tahun 2021-2027, adalah :
           </p>
           <p className=" ml-[45px] text-lg font-semibold mt-[15px]">
             a. Meningkatkan kualitas sumber daya manusia melalui program
             pendidikan dan program kesehatan, serta pengamalan ajaran agama.
           </p>
           <p className=" ml-[45px] text-lg font-semibold mt-[15px]">
-            b. Membangunan Desa Sekartaji dengan prinsip adil dan merata dengan
-            berlandaskan konsep “Trihita Karana”
+            b. Membangunan Desa Talang Dukun dengan prinsip adil dan merata
+            dengan berlandaskan konsep “Trihita Karana”
           </p>
           <p className=" ml-[45px] text-lg font-semibold mt-[15px]">
             c. Untuk mensejahterakan tarap hidup masyarakat baik ekonomi sosial,
@@ -68,15 +68,15 @@ const Container_Main = (props: Props) => {
             pemasaran, koperasi, usaha kecil dan menengah, serta pariwisata.
           </p>
           <p className=" font-semibold text-xl mt-[30px] ml-[15px]">
-            VISI MISI DESA SEKARTAJI
+            VISI MISI DESA Talang Dukun
           </p>
           <p className=" font-semibold text-xl mt-[30px] ml-[15px]">VISI</p>
           <p className=" ml-[15px]">
-            Visi Desa Sekartaji tahun 2015-2021 : "Terwujudnya Desa Sekartaji
-            yang Aman, Damai dan Sejahtera".
+            Visi Desa Talang Dukun tahun 2015-2023 : Terwujudnya Desa Talang
+            Dukun yang Aman, Damai dan Sejahtera.
           </p>
           <p className=" font-semibold text-xl mt-[30px] ml-[15px]">MISI</p>
-          <p className=" ml-[15px]">Misi Pembangunan Desa Sekartaji:</p>
+          <p className=" ml-[15px]">Misi Pembangunan Desa Talang Dukun:</p>
           <p className=" ml-[15px] text-lg mt-[7px]">
             1. Peningkatan kualitas sumber daya manusia
           </p>
@@ -107,7 +107,7 @@ const Container_Main = (props: Props) => {
           </div>
           <div className="image mt-[40px]">
             <img
-              src="/images/kepaladesa.png"
+              src="/images/kepaladesa.jpeg"
               alt="kepaladesa"
               className="w-[300px] h-[323px] rounded-xl"
             />
@@ -115,7 +115,7 @@ const Container_Main = (props: Props) => {
               Kepala Desa
             </h1>
             <h2 className=" text-center font-normal text-lg mt-[3px]">
-              Muhammad Akbar
+              Rudi Hartono
             </h2>
           </div>
           <div className=" flex gap-[29px] justify-center mt-[28px]">
