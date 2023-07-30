@@ -15,7 +15,7 @@ const Hero = (props: Props) => {
         Desa Talang dukun dalah salah satu desa di kabupaten ogan ilir , Sampai
         saat ini sejarah kelahiran Desa talang dukun belum bisa diketahui secara
         pasti karena tidak adanya bukti-bukti tertulis yang menerangkan tentang
-        asal usul atau sejarah dari Desa Sekartaji, akan tetapi berdasarkan
+        asal usul atau sejarah dari Desa Talang Dukun, akan tetapi berdasarkan
         cerita dari para tetua kami, Penyusun mencoba merangkum Sejarahi dari
         informasi dan keterangan-keterangan yang Penyusun dapatkan. Desa Talang
         dukun adalah termasuk salah satu desa tua.
