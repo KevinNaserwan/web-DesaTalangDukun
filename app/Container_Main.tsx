@@ -2,13 +2,14 @@
 import Image from "public/images/hero.png";
 import React, { useState } from "react";
 import Card from "./card";
+import Card2 from "./card2";
 
 type Props = {};
 
 const Container_Main = (props: Props) => {
   return (
     <div className=" flex flex-wrap mx-auto w-10/12 pt-[100px] justify-between">
-      <div className=" col-span-8">
+      <div className=" col-span-8" id="berita">
         <div className=" flex items-center gap-5">
           <div>
             <div className=" w-[350px] h-[6px] bg-main-color"></div>
@@ -21,8 +22,7 @@ const Container_Main = (props: Props) => {
           </div>
         </div>
         <Card />
-        <Card />
-        <Card />
+        <Card2 />
         <div className=" flex items-center gap-5 pt-[70px] justify-center">
           <div>
             <div className=" w-[350px] h-[6px] bg-main-color"></div>

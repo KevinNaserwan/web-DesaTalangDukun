@@ -24,7 +24,7 @@ const Footer = (props: Props) => {
             Pinang, Kabupaten Ogan Ilir, Sumatra Selatan, Indonesia.
           </p>
           <p className=" w-[160px] font-normal text-xs mt-1">
-            Email : desa@gmail.com Telp : 081369070979
+            Email : desatalangdukun@gmail.com Telp : 082181867602
           </p>
         </div>
       </div>

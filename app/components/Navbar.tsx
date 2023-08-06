@@ -25,7 +25,12 @@ const Navbar = (props: Props) => {
               Beranda
             </li>
           </a>
-          <Dropdown label="Pemerintahan">
+          <a href="#berita">
+            <li className=" font-semibold text-[14px] p-3 text-main-color rounded-lg">
+              Berita
+            </li>
+          </a>
+          <Dropdown label="Profil Desa">
             <a href="/Pemerintahan">
               <Dropdown.Item>Pemerintahan Desa</Dropdown.Item>
             </a>
