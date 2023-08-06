@@ -22,7 +22,7 @@ const Navbar = (props: Props) => {
         <ul className="flex gap-9">
           <a href="/">
             <li className=" font-semibold text-[14px] p-3 text-main-color">
-              Profil Desa
+              Beranda
             </li>
           </a>
           <Dropdown label="Pemerintahan">
@@ -32,23 +32,22 @@ const Navbar = (props: Props) => {
             <a href="/BPDDesa">
               <Dropdown.Item>BPD Desa</Dropdown.Item>
             </a>
-          </Dropdown>
-          <Dropdown label="Informasi Publik">
             <a href="/Sejarah">
               <Dropdown.Item>Sejarah Desa</Dropdown.Item>
             </a>
             <a href="/LambangDesa">
               <Dropdown.Item>Arti Lambang Desa</Dropdown.Item>
             </a>
+            <a href="/Keunggulandesa">
+              <Dropdown.Item>Keunggulan Desa</Dropdown.Item>
+            </a>
+            <a href="/DataDesa">
+              <Dropdown.Item>Data Desa</Dropdown.Item>
+            </a>
           </Dropdown>
-          <a href="/Keunggulandesa">
-            <li className=" font-semibold text-[14px] p-3  text-main-color">
-              Keunggulan Desa
-            </li>
-          </a>
-          <a href="/DataDesa">
-            <li className=" font-semibold text-[14px] p-3  text-main-color">
-              Data Desa
+          <a href="https://api.whatsapp.com/send?phone=6282181867602">
+            <li className=" font-semibold text-[14px] p-3 bg-green-400  text-white rounded-lg hover:bg-green-700">
+              Hubungi Kami
             </li>
           </a>
         </ul>
